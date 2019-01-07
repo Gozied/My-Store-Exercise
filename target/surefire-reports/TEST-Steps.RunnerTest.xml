@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Steps.RunnerTest" time="116.827" tests="33" errors="2" skipped="15" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
+    <property name="java.vm.version" value="25.172-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\abeln\IdeaProjects\MyStore"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\abeln\IdeaProjects\MyStore"/>
+    <property name="java.runtime.version" value="1.8.0_172-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\abeln\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\abeln\Downloads\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Users\abeln\Downloads\apache-maven-3.5.4\bin;C:\Users\abeln\AppData\Local\Microsoft\WindowsApps;C:\Users\abeln\AppData\Roaming\npm;C:\Users\abeln\.dotnet\tools;C:\usr\local\wbin;;."/>
+    <property name="maven.conf" value="C:\Users\abeln\Downloads\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\abeln\Downloads\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\abeln"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="abeln"/>
+    <property name="java.class.path" value="C:\Users\abeln\Downloads\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_172\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_172"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_172\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\abeln\Downloads\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given i am on the home page" classname="Scenario: As a user i want to reset my password" time="0.002"/>
+  <testcase name="And i see a logo banner" classname="Scenario: As a user i want to reset my password" time="0"/>
+  <testcase name="When i click on sign in" classname="Scenario: As a user i want to reset my password" time="0"/>
+  <testcase name="And i click forgot password link" classname="Scenario: As a user i want to reset my password" time="0"/>
+  <testcase name="And i enter email in the email field" classname="Scenario: As a user i want to reset my password" time="0"/>
+  <testcase name="And i click retrieve password button" classname="Scenario: As a user i want to reset my password" time="0"/>
+  <testcase name="Scenario: As a user i want to reset my password" classname="Scenario: As a user i want to reset my password" time="0"/>
+  <testcase name="Given i am on the home page" classname="| Maxtest964@gmail.com |  | Password is required. |" time="0"/>
+  <testcase name="And i see a logo banner" classname="| Maxtest964@gmail.com |  | Password is required. |" time="0"/>
+  <testcase name="When i click on sign in" classname="| Maxtest964@gmail.com |  | Password is required. |" time="0"/>
+  <testcase name="And i type user email &quot;Maxtest964@gmail.com&quot; details" classname="| Maxtest964@gmail.com |  | Password is required. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And i type user password &quot;&quot; details" classname="| Maxtest964@gmail.com |  | Password is required. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And i click on login button" classname="| Maxtest964@gmail.com |  | Password is required. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then i see an error &quot;Password is required.&quot; message details" classname="| Maxtest964@gmail.com |  | Password is required. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| Maxtest964@gmail.com |  | Password is required. |" classname="| Maxtest964@gmail.com |  | Password is required. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| Maxtest964@gmail.com |  | Password is required. |" classname="| Maxtest964@gmail.com |  | Password is required. |" time="0.031"/>
+  <testcase name="Given i am on the home page" classname="|  | Monday2 | An email address required. |" time="0"/>
+  <testcase name="And i see a logo banner" classname="|  | Monday2 | An email address required. |" time="0"/>
+  <testcase name="When i click on sign in" classname="|  | Monday2 | An email address required. |" time="0"/>
+  <testcase name="And i type user email &quot;&quot; details" classname="|  | Monday2 | An email address required. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And i type user password &quot;Monday2&quot; details" classname="|  | Monday2 | An email address required. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And i click on login button" classname="|  | Monday2 | An email address required. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then i see an error &quot;An email address required.&quot; message details" classname="|  | Monday2 | An email address required. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="|  | Monday2 | An email address required. |" classname="|  | Monday2 | An email address required. |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="|  | Monday2 | An email address required. |" classname="|  | Monday2 | An email address required. |" time="0"/>
+  <testcase name="Given i am on the home page" classname="Scenario: as a user i want to login successfully" time="0"/>
+  <testcase name="And i see a logo banner" classname="Scenario: as a user i want to login successfully" time="0.038">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;header_logo&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 31.75 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;LAPTOP-E0QTK1KN&apos;, ip: &apos;192.168.208.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\abeln\AppData\Local\Temp\scoped_dir23296_9333}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: d5972102f421a370f17f62562dd3b3fc&#10;*** Element info: {Using=id, value=header_logo}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"header_logo"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31.75 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-E0QTK1KN', ip: '192.168.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\abeln\AppData\Local\Temp\scoped_dir23296_9333}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d5972102f421a370f17f62562dd3b3fc
+*** Element info: {Using=id, value=header_logo}
+</error>
+  </testcase>
+  <testcase name="Scenario: as a user i want to login successfully" classname="Scenario: as a user i want to login successfully" time="0.038">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;header_logo&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 31.75 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;&#10;System info: host: &apos;LAPTOP-E0QTK1KN&apos;, ip: &apos;192.168.208.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\abeln\AppData\Local\Temp\scoped_dir23296_9333}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: d5972102f421a370f17f62562dd3b3fc&#10;*** Element info: {Using=id, value=header_logo}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"header_logo"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31.75 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-E0QTK1KN', ip: '192.168.208.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\abeln\AppData\Local\Temp\scoped_dir23296_9333}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=69.0.3497.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d5972102f421a370f17f62562dd3b3fc
+*** Element info: {Using=id, value=header_logo}
+</error>
+  </testcase>
+  <testcase name="When i click on sign in" classname="Scenario: as a user i want to login successfully" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And i enter email in the email field" classname="Scenario: as a user i want to login successfully" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And i enter password in the password field" classname="Scenario: as a user i want to login successfully" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And i click on login button" classname="Scenario: as a user i want to login successfully" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then i should be successfully logged in" classname="Scenario: as a user i want to login successfully" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

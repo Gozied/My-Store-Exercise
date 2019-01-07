@@ -1,0 +1,473 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4308098702,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "as a user i want to add product to cart successfully",
+        "description": "",
+        "id": "add-product;as-a-user-i-want-to-add-product-to-cart-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9672603124,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104246768,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1448231920,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on sign in",
+            "match": {
+              "location": "Login.iClickOnSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166846710,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i enter email in the email field",
+            "match": {
+              "location": "Login.iEnterEmailInTheEmailField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150447981,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i enter password in the password field",
+            "match": {
+              "location": "Login.iEnterPasswordInThePasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1288661199,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click on login button",
+            "match": {
+              "location": "Login.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800457780,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i click on Dresses",
+            "match": {
+              "location": "AddProduct.iClickOnDresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8374334372,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i add the most expensive dress to my cart",
+            "match": {
+              "location": "AddProduct.iAddTheMostExpensiveDressToMyCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6828812616,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i log out",
+            "match": {
+              "location": "AddProduct.iLogOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1209532642,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i click on sign in",
+            "match": {
+              "location": "Login.iClickOnSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144439532,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i enter email in the email field",
+            "match": {
+              "location": "Login.iEnterEmailInTheEmailField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109987136,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i enter password in the password field",
+            "match": {
+              "location": "Login.iEnterPasswordInThePasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1522041491,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "i click on login button",
+            "match": {
+              "location": "Login.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1579656228,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "i click on cart to check my product is still in the cart",
+            "match": {
+              "location": "AddProduct.iClickOnCartToCheckMyProductIsStillInTheCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Product",
+    "description": "",
+    "id": "add-product",
+    "keyword": "Feature",
+    "uri": "AddProduct.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AddBasket"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 310750,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "as a user i want to Create account successfully",
+        "description": "",
+        "id": "create-account;as-a-user-i-want-to-create-account-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4253188578,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62689806,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1085433786,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click on sign in",
+            "match": {
+              "location": "Login.iClickOnSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142092110,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i enter email address in the create account field",
+            "match": {
+              "location": "CreateAccount.iEnterEmailAddressInTheCreateAccountField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130466007,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click on create account",
+            "match": {
+              "location": "CreateAccount.iClickOnCreateAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1451136652,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i enter personal information details",
+            "match": {
+              "location": "CreateAccount.iEnterPersonalInformationDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 504286868,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i enter date of birth",
+            "match": {
+              "location": "CreateAccount.iEnterDateOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 659266579,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i enter address details and phone number",
+            "match": {
+              "location": "CreateAccount.iEnterAddressDetailsAndPhoneNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1243535716,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i click register",
+            "match": {
+              "location": "CreateAccount.iClickRegister()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create Account",
+    "description": "",
+    "id": "create-account",
+    "keyword": "Feature",
+    "uri": "CreateAccount.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@CreateAccount"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 49840,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "as a user i want to login successfully",
+        "description": "",
+        "id": "login;as-a-user-i-want-to-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4085918223,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i am on the home page",
+            "match": {
+              "location": "Common.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52271962,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1293398710,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on sign in",
+            "match": {
+              "location": "Login.iClickOnSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153559627,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i enter email in the email field",
+            "match": {
+              "location": "Login.iEnterEmailInTheEmailField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154178106,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i enter password in the password field",
+            "match": {
+              "location": "Login.iEnterPasswordInThePasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1407013269,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click on login button",
+            "match": {
+              "location": "Login.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38038662,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i should be successfully logged in",
+            "match": {
+              "location": "Login.iShouldBeSuccessfullyLoggedIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
